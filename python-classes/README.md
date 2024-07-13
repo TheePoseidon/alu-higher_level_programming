@@ -1,2 +1,1 @@
-This directory contains python classes
-Project 3
+0-square.py

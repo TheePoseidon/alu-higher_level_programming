@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 def multiply_by_2(a_dictionary):
-    double_ditc = dict(a_dictionary)
-    for K, V in double_ditc.items():
-        double_ditc[K] = V * 2
-    return double_ditc
+    new_dir = a_dictionary.copy()
+    list_keys = list(new_dir.keys())
+
+    for i in list_keys:
+        new_dir[i] *= 2
+
+    return (new_dir)

@@ -1,2 +1,1 @@
-This repository contains python inheritance
-Project 6
+# python-inheritance

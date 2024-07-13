@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-for let in range(ord('a'), ord('z')+1):
-    if chr(let) == 'e' or chr(let) == 'q':
-        continue
-    else:
-        print("{}".format(chr(let)), end='')
+for letter in range(97, 123):
+    if chr(letter) != 'q' and chr(letter) != 'e':
+        print('{}'.format(chr(letter)), end='')
