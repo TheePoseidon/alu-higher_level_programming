@@ -1,2 +1,1 @@
-This directory contains python exceptions
-Project 2
+python-exceptions
