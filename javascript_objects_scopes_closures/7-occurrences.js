@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
-exports.nbOccurences = function (list, searchElement) {
+exports.nbOccurrences = function (list, searchElement) {
   return list.filter((x) => x === searchElement).length
 };
+
